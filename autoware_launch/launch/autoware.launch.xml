@@ -62,7 +62,7 @@
 
   <!-- Vehicle -->
   <group if="$(var launch_vehicle)">
-    <include file="$(find-pkg-share autoware_launch)/components/launch/f1tenth_vehicle_component.launch.xml">
+    <include file="$(find-pkg-share autoware_launch)/launch/components/f1tenth_vehicle_component.launch.xml">
       <arg name="vehicle_model" value="$(var vehicle_model)"/>
       <arg name="sensor_model" value="$(var sensor_model)"/>
       <arg name="vehicle_id" value="$(var vehicle_id)"/>
